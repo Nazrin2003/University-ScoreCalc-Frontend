@@ -55,15 +55,15 @@ const MarkList = () => {
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="row g-4 px-3 py-3">
                             <center><h3 className='card-title mb-4 text-danger'>University Marklist </h3></center>
-                            <div className="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">University Number</label>
                                 <input type="text" className="form-control" name="universityNum" value={input.universityNum} onChange={inputHandler} />
                             </div>
-                            <div className="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">Admission No</label>
                                 <input type="text" className="form-control" name="admno" value={input.admno} onChange={inputHandler} />
                             </div>
-                            <div className="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                            <div className="ccol col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">Course</label>
                                 <input type="text" className="form-control" name="course" value={input.course} onChange={inputHandler} />
                             </div>
